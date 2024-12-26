@@ -1,0 +1,185 @@
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 200px 200px 0 0;
+  border-color: #007bff transparent transparent transparent;
+  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, .5));
+  filter: drop-shadow(1px 1px 1px rgb(226, 226, 226));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+link{font-family: "Tajawal";}
+
+.link {
+  color: #023A48;
+}
+
+.hlink {
+  color: #ffffff;
+}
+
+
+.link:hover, .hlink:hover {
+  color: #CDAB67;
+}
+
+.order {
+  color: #CDAB67;
+}
+
+.order:hover {
+  color: white;
+  background-color: #CDAB67;
+}
+
+.subOrder {
+  color: white;
+}
+
+.subOrder:hover {
+  color: #CDAB67;
+  background-color: #ffffff;
+}
+
+.mybar {
+  animation-name: animation;
+  animation-duration: 0.5s;
+}
+
+.color {
+  background: linear-gradient(to bottom, white, #014455) !important;
+  width: 100%;
+  height: 100%;
+}
+
+.myColor {
+  background-color: white;
+}
+
+.appearing {
+  width: 80%;
+  animation-name: appearAnimation;
+  animation-timing-function: linear;
+  animation-duration: 3s;
+  padding: 0;
+  margin: 0;
+}
+
+@keyframes appearAnimation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes disanimation {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
+
+.selected {
+  background-color: rgb(4, 108, 152);
+ 
+}
+
+.appear {
+  animation-name: animation;
+  animation-duration: 0.5s;
+}
+
+.disappear {
+  animation-name: disanimation;
+  animation-duration: 0.5s;
+}
+
+.myLink:hover {
+  color: rgb(42, 42, 42);
+}
+
+.show-all-button {
+  padding: 5px 40px; 
+  font-size: 16px; 
+  background-color: #3f5b4000; /* Green background color */
+  color: white; /* White text color */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor on hover */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+  transition: background-color 0.3s;
+  border: 2px solid white;
+  font-family: "Tajawal";
+}
+
+.show-all-button:hover {
+  background-color: #ffffff; /* Darker green background color on hover */
+  color: black;
+  font-family: "Tajawal";
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  margin-right: -5px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #035064;
+}
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 15px solid #035064;
+}
+
+#whatsapp{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+
+  z-index: 23432423423;
+
+
+  bottom: 0;
+  right: 0;
+
+  margin: 50px;
+
+  cursor: pointer;
+}
