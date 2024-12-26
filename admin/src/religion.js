@@ -1,0 +1,15 @@
+export const religions = {
+    "Christianity": "المسيحية",
+    "Islam": "الإسلام",
+    "Hinduism": "الهندوسية",
+    "Buddhism": "البوذية",
+    "Sikhism": "السيخية",
+    "Judaism": "اليهودية",
+    "Jainism": "الجاينية",
+    "Bahá'í Faith": "البهائية",
+    "Shinto": "الشنتو",
+    "Taoism": "الطاوية",
+    "Zoroastrianism": "الزرادشتية",
+    "Wicca": "ويكا",
+    "Rastafarianism": "الراستافاري",
+}
